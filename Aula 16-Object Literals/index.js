@@ -11,3 +11,21 @@ let person = {
 }
 
 console.log(person)
+
+// Podemos escrever propriedades com valores de variáveis ou retorno de funções.
+// Ajuda a escrever menos código.
+
+let genero = 'Gênero'
+
+let jujutsuKaisen = {
+    ['Tipo_de_' + genero]:'Shonen'
+}
+
+console.log(jujutsuKaisen.Tipo_de_Gênero)
+
+let Gintama = {
+    ['Tipo_de_' + genero]:'Shonen'
+}
+
+console.log(Gintama.Tipo_de_Gênero) 
+
