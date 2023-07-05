@@ -25,4 +25,14 @@
     - Decompor um objeto grande em um objeto menor.
     - objeto grande = SalaDeAula.
     - objeto com agreggation = SalaDeAula com Aluno, Mesa, Lousa
+
+    -> Herança
+
+    - Uma classe deriva de outra classe, sendo filha da classe pai.
+    - Pode herdar sua propriedades e métodos.
+    - possibilita que as classes compartilhem seus atributos, métodos e outros membros da classe entre si
+
+    -> Polimorfismo
+
+    - Usar método da classe pai com pequenos ajustes que se adapte com as necessidades de um novo objeto.
 */
