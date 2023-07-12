@@ -61,3 +61,18 @@ let cliente2 = {
 // Vamos utilizar o método call para pegar o método falar emprestado
 
 cliente1.Falar.call(cliente2)
+
+
+
+/*
+    -> Number
+    - O objeto number pode ser tratado com:
+    - parseInt(): Transforma número em inteiro.
+    - parseFloat(): Transforma número em ponto flutuante.
+*/
+
+let numberOne = '12.14'
+let numberTwo = '12.14'
+
+console.log(parseInt(numberOne))
+console.log(parseFloat(numberTwo))
