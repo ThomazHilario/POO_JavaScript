@@ -30,3 +30,34 @@ console.log(array3)
 array3.pop()
 
 console.log(array3)
+
+
+/* 
+    -> Funções
+
+    - As funções também são objetos pai do object.
+    - Podemos usar length em uma função para ver quantos parâmetros ela possui.
+    - Podemos utilizar métodos call e apply das funções.
+    - Call pega métodos emprestado de objetos.
+    - O aplly funciona da mesma forma que o call, porem os seus parâmetros são transformados em array.
+
+
+*/
+
+
+let cliente1 = {
+    name:'Thomaz',
+    Falar(){
+        console.log(`Olá meu nome é ${this.name}`)
+    },
+}
+
+cliente1.Falar()
+
+let cliente2 = {
+    name:'Lincoln'
+}
+
+// Vamos utilizar o método call para pegar o método falar emprestado
+
+cliente1.Falar.call(cliente2)
