@@ -76,3 +76,17 @@ let numberTwo = '12.14'
 
 console.log(parseInt(numberOne))
 console.log(parseFloat(numberTwo))
+
+let number = 17.348900
+
+// toFixed() -> Escolhe quantas casas decimais quer após a virgula
+
+console.log(number.toFixed(2))
+
+// toPrecision() -> Mesma função do toFixed() porem de forma mais precisa
+
+console.log(number.toPrecision(3))
+
+// toExponential() -> tras o exponencial do número
+
+console.log(number.toExponential())
