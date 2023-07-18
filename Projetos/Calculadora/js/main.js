@@ -137,7 +137,9 @@ class Calculator {
             // aparecendo o número no painel
 
             if(upperValue == '0'){
-                calculator.upperValue.textContent = input
+                if(verify.test(input)){
+                    calculator.upperValue.textContent = input
+                }
             } else{
                 calculator.upperValue.textContent += input
             }
