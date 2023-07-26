@@ -1,5 +1,6 @@
 /*
     -> fazendo com que uma classe herda os métodos e propriedades da classe pai.
+    - O objeto instanciado ele será filho de veiculo e da classe ao qual provem.
 */
 // Criando a classe pai
 function Veiculo(){
@@ -31,3 +32,7 @@ let bmw = new Carro('BMW')
 bmw.ligar()
 bmw.PassarMarcha()
 bmw.desligar()
+
+// verificando instancia
+console.log(bmw instanceof Carro)
+console.log(bmw instanceof Veiculo)
