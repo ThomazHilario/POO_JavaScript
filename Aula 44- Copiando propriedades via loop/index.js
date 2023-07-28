@@ -1,6 +1,7 @@
 /*
     -> Copiando propriedades e métodos por loop
     - Ao inves de utilizar o construtor temporário, podemos criar uma função que copie as propriedaddes e métodos por meio de um loop.
+    - Porem utilizando esta form, ao fazer com que o array mude para uma classe filha vai fazer com que mude a da classe pai também.
 */
 
 function extend(pai,filho){
