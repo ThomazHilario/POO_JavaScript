@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     height: 50vh;
@@ -52,11 +53,12 @@ body{
 #to_do_List_contanier > ul > li{
     border: 1px solid black;
     border-radius: 20px;
-    padding: 3px 10px;
+    padding: 4px 10px;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 0px;
 }
 #to_do_List_contanier > ul > li > i{
     cursor: pointer;
