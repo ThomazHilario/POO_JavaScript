@@ -45,6 +45,14 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
+/* mensagme */
+#msg{
+    display: block;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
 /* Estilização da lista */
 #to_do_List_contanier > ul{
     margin-top: 20px;
@@ -59,6 +67,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 10px 0px;
+    background-color: rgba(0, 0, 0, 0)
 }
 #to_do_List_contanier > ul > li > i{
     cursor: pointer;

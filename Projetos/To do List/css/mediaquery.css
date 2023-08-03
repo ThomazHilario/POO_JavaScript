@@ -1,0 +1,8 @@
+@media screen and (min-width:740px) {
+    #to_do_List_contanier > form > input{
+        width: 350px;
+    }
+    #to_do_List_contanier > form > #click{
+        width: 60px;
+    }
+}
